@@ -1,0 +1,11 @@
+- virtualenv venv
+- cd /venv/Script
+- source activate
+- pip install scrapy
+- cd ..
+- cd ..
+
+- scrapy startproject proj_name
+-- Making folder inside spiders
+-- write code inside Spiderfolder files.py to scrub
+- scrapy crawl news -o news.json
